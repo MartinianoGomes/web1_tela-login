@@ -9,3 +9,11 @@
 
     font-family: "Tittilium Web";
 }
+
+body div {
+    display: flex;
+    flex-direction: row;
+
+    height: 100dvh;
+    width: 100dvw;
+}
