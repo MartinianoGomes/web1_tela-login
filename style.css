@@ -1,3 +1,4 @@
+/* Estilizações globais */
 @font-face {
     font-family: "Tittilium Web";
     src: url(fonts/Titillium_Web/TitilliumWeb-Regular.ttf);
@@ -8,4 +9,21 @@
     padding: 0;
 
     font-family: "Tittilium Web";
+}
+
+body {
+    height: 100dvh;
+    width: 100dvw;
+}
+
+
+
+/* Estilizações da página */
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.primeiraparte {
+    display: flex;
 }

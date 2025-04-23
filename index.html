@@ -8,55 +8,72 @@
     <title>Vertigo - Login</title>
 </head>
 <body>
-    <div>
-        <header>
-            <img src="assets/logo.svg" alt="Logo da empresa.">
-        </header>
-
-        <main class="primeiraparte">
-            <div class="headline">
-                <h1>Acesse a plataforma</h1>
-
-                <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
-            </div>
-
-            <form action="">
-                <div class="input input-email">
-                    <label for="senha">E-mail</label>
-                    <input
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="Digite seu e-mail"
-                    >
+    <div id="page" class="flex">
+        <div class="primeiraparte">
+            <header>
+                <img src="assets/logo.svg" alt="Logo da empresa.">
+            </header>
+    
+            <main>
+                <div class="headline">
+                    <h1>Acesse a plataforma</h1>
+    
+                    <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
                 </div>
-
-                <div class="input input-senha">
-                    <div class="label-flex">
-                        <label for="senha">Senha</label>
-                        <a href="">Esqueceu a senha?</a>
+    
+                <form action="">
+                    <div class="input input-email">
+                        <label for="senha">E-mail</label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Digite seu e-mail"
+                        >
                     </div>
-
+    
+                    <div class="input input-senha">
+                        <div class="label-flex">
+                            <label for="senha">Senha</label>
+                            <a href="">Esqueceu a senha?</a>
+                        </div>
+    
+                        <input
+                            type="password"
+                            name="senha"
+                            id="senha"
+                            placeholder="Digite sua senha"
+                        >
+    
+                        <img
+                            src="assets/eye-off.svg"
+                            alt="Mostrar senha"
+                            onclick=""
+                        >
+    
+                        <img
+                            src="assets/eye.svg"
+                            alt="Mostrar senha"
+                            onclick=""
+                        >
+                    </div>
+    
                     <input
-                        type="password"
-                        name="senha"
-                        id="senha"
-                        placeholder="Digite sua senha"
+                        type="submit"
+                        value="Entrar"
                     >
-                </div>
+    
+                    <div class="create-account">
+                        <p>Ainda não tem conta?</p>
+                        <a href="">Increva-se</a>
+                    </div>
+                </form>
+            </main>
+        </div>
 
-                <input
-                    type="button"
-                    value="Entrar"
-                >
-
-                <p>Ainda não tem conta? <a href="">Increva-se</a></p>
-            </form>
-        </main>
-
-        <section class="segundaparte">
+        <div class="segundaparte">
             <img src="assets/bg.jpg" alt="">
-        </section>
+        </div>
     </div>
 
     <script src="script.js"></script>
