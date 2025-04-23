@@ -14,23 +14,41 @@
         </header>
 
         <main class="primeiraparte">
-            <h1>Acesse a plataforma</h1>
+            <div class="headline">
+                <h1>Acesse a plataforma</h1>
 
-            <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
+                <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
+            </div>
 
             <form action="">
-                <label for="">
-                    <p>Nome</p>
-                    <input type="text" name="" id="" placeholder="Digite seu e-mail">
-                </label>
+                <div class="input input-email">
+                    <label for="senha">E-mail</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Digite seu e-mail"
+                    >
+                </div>
 
-                <label for="">
-                    <p>Senha</p>
-                    <p>Esqueceu sua senha?</p>
-                    <input type="text" name="" id="" placeholder="Digite sua senha">
-                </label>
+                <div class="input input-senha">
+                    <div class="label-flex">
+                        <label for="senha">Senha</label>
+                        <a href="">Esqueceu a senha?</a>
+                    </div>
+                    
+                    <input
+                        type="password"
+                        name="senha"
+                        id="password"
+                        placeholder="Digite sua senha"
+                    >
+                </div>
 
-                <input type="button" value="Entrar">
+                <input
+                    type="button"
+                    value="Entrar"
+                >
 
                 <p>Ainda não tem conta? <a href="">Increva-se</a></p>
             </form>
