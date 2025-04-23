@@ -11,19 +11,25 @@
     font-family: "Tittilium Web";
 }
 
-body {
-    height: 100dvh;
-    width: 100dvw;
-}
-
 
 
 /* Estilizações da página */
 .flex {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    min-height: 100dvh;
 }
 
 .primeiraparte {
     display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Estilizações da Segunda Parte da página */
+.segundaparte {
+    background-image: url(assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
