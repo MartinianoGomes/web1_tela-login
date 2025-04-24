@@ -51,6 +51,12 @@
 .label-flex {
     display: flex;
     justify-content: space-between;
+
+    margin-block-end: 5px;
+}
+
+.label-flex label {
+    font-weight: bold;
 }
 
 .label-flex a {
@@ -72,7 +78,23 @@
 }
 
 .input-senha {
+    display: flex;flex-direction: column;
+    justify-content: space-between;
+    border-radius: 4px;
     margin-block-end: 25px;
+}
+
+.span {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 12px;
+    border: 1px solid #E2E8F0;
+    border-radius: 4px;
+}
+
+.span input {
+    border: none;
+    width: 100%;
 }
 
 .input img {
